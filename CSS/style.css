@@ -1,0 +1,142 @@
+*{
+    padding: 0%;
+    margin: 0%;
+     box-sizing: border-box;
+}
+
+
+
+.nav-bar{
+    background-color: #242020;
+    color: white;
+    height: 10vh;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+a{
+    text-decoration: none;
+    color: white;
+    justify-content: flex-end;
+    margin: 20px;
+    font-size: 25px;
+}
+.img img{
+    width:300px;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.content{
+    text-align: center;
+    font-size: 50px;
+     margin-top: 250px;
+    margin-left: 150px; 
+    background-color: #242020;
+    color: white;
+    
+
+}
+.container{
+    display: flex;
+    background-color: #242020;
+    height: 100vh;
+}
+a:hover{
+    text-decoration: underline;
+}
+    
+.container1{
+    /* display:flex; */
+    height:100vh;
+    background-color: #242020;
+    }
+
+.content1{
+    color: white;
+    font-size: 45px;
+    padding-top: 300px;
+    margin-left: 200px;
+}    
+.page2{
+    display: flex;
+    justify-content: space-evenly;
+}    
+.image2{
+    width: 290px;
+    margin-left: 900px;
+    margin-top: 20px;
+} 
+.image1{
+    margin-top: 20px;
+}
+.container2{
+    height: 100vh;
+    background-color: #242020;
+     display: flex;
+}
+.year1{
+    position: relative;
+    left:300px;
+    top:400px;
+    color:white;
+    font-size: 1.5rem;
+    line-height: 50px;
+}
+.year2{
+    position: relative;
+    left:400px;
+    top:400px;
+    color:white;
+    font-size: 1.5rem;
+    line-height: 50px;
+}
+.year3{
+    position: relative;
+    left:500px;
+    top:400px;
+    color:white;
+    font-size: 1.5rem;
+    line-height: 50px;
+}
+.education{
+    position: relative;
+    bottom: 550px;
+    left:1100px;
+    width:260px;
+}
+.container3{
+height: 200%;
+    
+    background-color: #242020;
+
+}
+.throwball{
+    position: relative;
+    width:300px;
+    height:400px;
+    left:190px;
+    padding: 50px;
+}
+.shuttle{
+    position: relative;
+    width:300px;
+    height:400px;
+    left:290px;
+    padding: 50px;
+}
+.singing{
+    position: relative;
+    width:300px;
+    height:400px;
+    left:390px;
+    padding: 50px;
+}
+.skill1{
+    color:white;
+}
+.skill2{
+    color:white;
+}
+.skill3{
+    color:white;
+}
