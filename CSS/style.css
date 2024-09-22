@@ -2,6 +2,9 @@
     padding: 0%;
     margin: 0%;
      box-sizing: border-box;
+     overflow: none;
+     scroll-behavior: smooth;
+     
 }
 
 
@@ -11,6 +14,8 @@
     color: white;
     height: 10vh;
     color: white;
+    position: fixed;
+    width: 100vw;
     display: flex;
     justify-content: flex-end;
 }
@@ -33,13 +38,14 @@ a{
     margin-left: 150px; 
     background-color: #242020;
     color: white;
-    
+    height:100vh;
 
 }
 .container{
     display: flex;
     background-color: #242020;
-    height: 100vh;
+    justify-content: center;
+    height:100vh;
 }
 a:hover{
     text-decoration: underline;
@@ -59,11 +65,10 @@ a:hover{
 }    
 .page2{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }    
 .image2{
     width: 290px;
-    margin-left: 900px;
     margin-top: 20px;
 } 
 .image1{
@@ -73,70 +78,98 @@ a:hover{
     height: 100vh;
     background-color: #242020;
      display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+    
 }
 .year1{
-    position: relative;
-    left:300px;
-    top:400px;
+   
     color:white;
-    font-size: 1.5rem;
-    line-height: 50px;
+    font-size: 2.0rem;
+    line-height: 70px;
+    height: fit-content;
 }
 .year2{
-    position: relative;
-    left:400px;
-    top:400px;
+   
     color:white;
-    font-size: 1.5rem;
-    line-height: 50px;
+    font-size: 2.0rem;
+    line-height: 70px;
+    height: fit-content;
 }
 .year3{
-    position: relative;
-    left:500px;
-    top:400px;
+   
     color:white;
-    font-size: 1.5rem;
-    line-height: 50px;
+    font-size: 2.0rem;
+    line-height: 70px;
+    height: fit-content;
 }
-.education{
-    position: relative;
+.education_image{
+    height: fit-content;
+}
+.education_image{
+    /* position: relative;
     bottom: 550px;
     left:1100px;
-    width:260px;
+    width:260px; */
+    width: px;
+    height: 200px;
+    margin-top: 50px;
+    /* margin-top:500px;
+    margin-left: 700px;
+    margin-bottom: 1100px; */
 }
 .container3{
-height: 200%;
-    
-    background-color: #242020;
+    height: 100vh;
+
+ display:flex; 
+ justify-content: space-evenly;
+ align-items: center;
+ text-align: center;  
+background-color: #242020;
 
 }
-.throwball{
-    position: relative;
-    width:300px;
-    height:400px;
-    left:190px;
-    padding: 50px;
-}
-.shuttle{
-    position: relative;
-    width:300px;
-    height:400px;
-    left:290px;
-    padding: 50px;
-}
-.singing{
-    position: relative;
-    width:300px;
-    height:400px;
-    left:390px;
-    padding: 50px;
+
+
+.skills-image{
+    width: 400px;
+    height: 500px;
+
 }
 .skill1{
     color:white;
+    left: 400px;
 }
 .skill2{
     color:white;
 }
 .skill3{
     color:white;
+}
+.box p{
+   
+    color:white;
+    margin-top: 20px;
+    font-size: 35px;
+    
+}
+#skills{
+    height: 100vh;
+    padding-top: 0px;
+}
+.container4{
+    height: 90vh;
+    background-color: #242020;
+    color: white;
+    /* margin-top: 100vh; */
+}
+.top img{
+    margin-left: 300px; 
+}
+.home{
+     margin-left: 200px;
+
+}
+.top p{
+ margin-left: 550px;
+ font-size: 45px;
 }
