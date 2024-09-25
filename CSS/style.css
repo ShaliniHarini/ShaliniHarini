@@ -22,7 +22,7 @@
     text-decoration: none;
     justify-content: flex-end;
     color:#e2b808;
-    margin: 20px;
+    margin: 40px;
     font-size: 25px;
 }
 .button1{
@@ -31,6 +31,10 @@
     background-color:  #e2b808;
     
    
+}
+.heading1{
+    color: #e2b808;
+    margin-bottom: 60px;
 }
 
 
@@ -86,6 +90,7 @@
     margin-top: 20px;
 }
 
+
 /* Education */
 .container2{
     height: 100vh;
@@ -137,6 +142,10 @@
     width: px;
     height: 200px;
     margin-top: 50px;
+}
+.extrapara{
+    font-size: 30px;
+    margin-left: 100px;
 }
 
 /* Skills */
@@ -191,13 +200,10 @@ background-color: #242020;
     margin-top: 150px;
 }
 
-.home{
-     margin-left: 200px;
-
- }
  .content-1{
     margin-left: 45%;
     font-size: 25px;
+    margin-bottom: 20px;
     
  }
  .content-2{
@@ -208,7 +214,7 @@ background-color: #242020;
  .content-3{
   
     margin-left: 45%;
-    font-size: 40px;
+    font-size: 25px;
  }
 
 
@@ -232,4 +238,5 @@ background-color: #242020;
     padding: 10px;
     box-shadow: #e2b808 8px 8px 8px
  }
+ 
 
