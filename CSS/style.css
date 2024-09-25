@@ -13,21 +13,20 @@
     background-color: #242020;
     color: #e2b808;
     height: 10vh;
-    color: #e2b808;
     position: fixed;
     width: 100vw;
     display: flex;
     justify-content: flex-end;
 }
-a{
+ a{
     text-decoration: none;
     justify-content: flex-end;
-    color: #e2b808;
+    color:#e2b808;
     margin: 20px;
     font-size: 25px;
 }
 .button1{
-    /* position: fixed; */
+    
     color: black;
     background-color:  #e2b808;
     
@@ -36,16 +35,18 @@ a{
 
 
 .img img{
-    width:300px;
+    width:400px;
     margin-top: 200px;
     margin-left: 200px;
+    box-shadow: #e2b808 20px 10px 20px;
+    border-radius: 10px;
+    
 }
 .content{
     text-align: center;
     font-size: 50px;
      margin-top: 250px;
     margin-left: 150px; 
-    background-color: #242020;
     color: #e2b808;
     height:100vh;
 
@@ -58,12 +59,11 @@ a{
 }
 .nav-bar a:hover{
     text-decoration: underline;
-    color:#e2b808;
+    color:white;
 }
-
     
+    /* About */
 .container1{
-    /* display:flex; */
     height:100vh;
     background-color: #242020;
     }
@@ -85,13 +85,21 @@ a{
 .image1{
     margin-top: 20px;
 }
+
+/* Education */
 .container2{
     height: 100vh;
     background-color: #242020;
-     display: flex;
+    display: grid;
+    grid-template-rows: 70% 30%;
+     
+    
+}
+
+.edu{
+    display: flex;
      justify-content: space-evenly;
      align-items: center;
-    
 }
 .year1{
    
@@ -114,6 +122,13 @@ a{
     line-height: 70px;
     height: fit-content;
 }
+.extrapara{
+    
+    color: #e2b808;
+    font-size: 40px;
+    margin-left: 20px;
+    
+}
 .education_image{
     height: fit-content;
     margin-bottom: 40px;
@@ -123,6 +138,8 @@ a{
     height: 200px;
     margin-top: 50px;
 }
+
+/* Skills */
 .container3{
  height: 100vh;
  display:flex; 
@@ -135,20 +152,16 @@ background-color: #242020;
 
 
 .skills-image{
-    width: 400px;
+    width:400px;
     height: 500px;
+    border-radius: 10px;
+}
+.box{
+    background-color: white;
+    padding: 10px;
+    box-shadow: #e2b808 8px 8px 8px
+}
 
-}
-.skill1{
-    color:#e2b808;
-    left: 400px;
-}
-.skill2{
-    color:#e2b808;
-}
-.skill3{
-    color:#e2b808;
-}
 .box p{
    
     color:#e2b808;
@@ -160,25 +173,63 @@ background-color: #242020;
     height: 100vh;
 
 }
+
+/* Contact */
 .container4{
-    height: 90vh;
+    height: 100vh;
     background-color: #242020;
     color: #e2b808;
 
 }
-.topcontact image{
-    margin-left: 40%;
-    font-size: 40px;
+.contact-image{
+    height: 100px;
+    width: 100px;
 }
+
 .top img{
-    margin-left: 300px; 
-    
+    margin-left: 500px; 
+    margin-top: 150px;
 }
+
 .home{
      margin-left: 200px;
 
  }
  .content-1{
-    margin-left: 40%;
+    margin-left: 45%;
+    font-size: 25px;
+    
+ }
+ .content-2{
+   
+    margin-left: 45%;
+    font-size: 25px;
+ }
+ .content-3{
+  
+    margin-left: 45%;
     font-size: 40px;
  }
+
+
+
+ /* Learnings */
+ .container5{
+    height: 100vh;
+    background-color: #242020; 
+ }
+
+
+ .container5{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+ }
+ .container5 img{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: #e2b808 8px 8px 8px
+ }
+
