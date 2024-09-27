@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=>, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="./CSS/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -22,7 +24,7 @@
     <div class="container" id="home">
 
         <div class="img">
-            <img src="./assesets/images/shalu photo 2.jpg">
+            <img src="./assesets/images/home-img1.jpg">
 
         </div>
         <div class="content">
@@ -34,16 +36,16 @@
     <div class="container1" id="about">
         <div class="content1">
             <p class="heading1">ABOUT</p>
-            <p>I’m Shalini from Chennai. My family consists of 8 members <br> including me I’m interested in learning
-                technology and exploring computers. Myhobbies are to listen music,reading books and playing <br> games.
+            <p>I’m Shalini from Chennai. My family consists of 8 members <br> including me. I’m interested in learning
+                technology and exploring computers. My hobbies are listen to music,reading books and playing <br> games.
             </p>
         </div>
         <div class="page2">
             <div class="img1">
-                <img class="image1" src="./assesets/images/computer stickers.png">
+                <img class="image1" src="./assesets/images/about-img1.png">
             </div>
             <div class="img2">
-                <img class="image2" src="./assesets/images/Hobbies stickers.png">
+                <img class="image2" src="./assesets/images/about-img2.png">
             </div>
         </div>
     </div>
@@ -68,11 +70,11 @@
                     <P>YEAR-2022</P>
                 </div>
                 <div class="education_image">
-                    <img src="./assesets/images/education photo.jpg" width="300px">
+                    <img src="./assesets/images/education-img1.jpg" width="300px">
                 </div>
             </div>
             <div>
-                <h3 class="extrapara"> I'm currently pursuing in Freshworks Software Acadamy.</h3>
+                <h3 class="extrapara"> I'm currently pursuing in Freshworks Software Academy.</h3>
             </div>
 
         </div>
@@ -82,18 +84,18 @@
         
         <div class="container3">
 
-            <div class="box">
-                <img class="skills-image" src="./assesets/images/throwball logo3.jpg">
+            <div class="box" data-aos="flip-left">
+                <img class="skills-image" src="./assesets/images/skills-img1.jpg">
                 <p>THROWBALL PLAYER</p>
             </div>
 
-            <div class="box">
-                <img class="skills-image" src="./assesets/images/shuttle logo.webp">
+            <div class="box" data-aos="flip-left">
+                <img class="skills-image" src="./assesets/images/skills-img2.webp">
                 <P>SHUTTLE PLAYER</P>
             </div>
 
-            <div class="box">
-                <img class="skills-image" src="./assesets/images/shuttle logo.webp">
+            <div class="box" data-aos="flip-left">
+                <img class="skills-image" src="./assesets/images/skills-img3.png">
                 <P>SINGING</P>
             </div>
         </div>
@@ -104,17 +106,17 @@
         <div class="container4">
             
             <div class="top">
-                <img class="contact-image" src="./assesets/images/name photo 2.png">
+                <img class="contact-image" id="img1" src="./assesets/images/contact-img1.png">
                 <p class="content-1">SHALINI.R</p>
             </div>
 
             <div class="top">
-                <img class="contact-image" src="./assesets/images/home photo.png">
+                <img class="contact-image" src="./assesets/images/ccntact-img2.png">
                 <p class="content-2">Global infocity park</p>
             </div>
 
             <div class="top">
-                <img class="contact-image" src="./assesets/images/gmail photo.jpg">
+                <img class="contact-image"  src="./assesets/images/contact-img3.jpg">
                 <p class="content-3"><a href="mailto:shalini.rajini@fssa.freshworks.com">shalini.rajini@fssa.freshworks.com</a></p>
             </div>
         </div>
@@ -124,23 +126,26 @@
     <section class="container5" id="learnings">
         
 
-         <div class="logo1">
+         <div class="logo1" data-aos="flip-left">
             <a><img src="./assesets/images/js logo.png" width="300px" height="350px"></a>
-            <a href="https://github.com/ShaliniHarini/javascript-practice">Javascript</a>
+            <a href="https://github.com/ShaliniHarini/javascript-practice" class="link">Javascript</a>
          </div>
-         <div class="logo2">
+         <div class="logo2" data-aos="flip-left">
           <a><img src="./assesets/images/css logo.png" width="300px"></a>
-          <a href="./assesets/images/css.png">CSS</a>
+          <a href="./assesets/images/learnings-img1.jpeg" class="link1">CSS</a>
           
          </div>
-         <div class="logo3">
-            <a><img src="./assesets/images/html logo.png" width="300px"></a>
-            <a href="./assesets/images/html.png">HTML</a>
+         <div class="logo3" data-aos="flip-left">
+            <img src="./assesets/images/html logo.png" width="300px">
+            <a href="./assesets/images/learnings-img2.png" class="link2">HTML</a>
          </div>
     </section>
 
 
 
 </body>
+<script>
+    AOS.init();
+  </script>
 
 </html>

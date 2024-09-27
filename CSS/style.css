@@ -29,8 +29,12 @@
     
     color: black;
     background-color:  #e2b808;
-    
-   
+    padding: 8px;
+    border-radius: 10px;
+
+}
+.button1:hover{
+    background-color: white;
 }
 .heading1{
     color: #e2b808;
@@ -62,7 +66,7 @@
     height:100vh;
 }
 .nav-bar a:hover{
-    text-decoration: underline;
+    text-decoration: none;
     color:white;
 }
     
@@ -144,7 +148,7 @@
     margin-top: 50px;
 }
 .extrapara{
-    font-size: 30px;
+    font-size: 45px;
     margin-left: 100px;
 }
 
@@ -168,7 +172,12 @@ background-color: #242020;
 .box{
     background-color: white;
     padding: 10px;
-    box-shadow: #e2b808 8px 8px 8px
+    box-shadow: #e2b808 8px 8px 8px;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+}
+.box:hover{
+    transform: scale(1.05);
 }
 
 .box p{
@@ -196,25 +205,32 @@ background-color: #242020;
 }
 
 .top img{
-    margin-left: 500px; 
-    margin-top: 150px;
+    margin-left: 35%; 
+    margin-bottom: 20px;
 }
-
+#img1{
+    margin-top: 200px;
+}
  .content-1{
     margin-left: 45%;
     font-size: 25px;
-    margin-bottom: 20px;
+    position: relative;
+    bottom: 80px;
     
  }
  .content-2{
    
     margin-left: 45%;
     font-size: 25px;
+    position: relative;
+    bottom: 80px;
  }
  .content-3{
   
-    margin-left: 45%;
+    margin-left: 42%;
     font-size: 25px;
+    position: relative;
+    bottom: 80px;
  }
 
 
@@ -238,5 +254,31 @@ background-color: #242020;
     padding: 10px;
     box-shadow: #e2b808 8px 8px 8px
  }
- 
+ .container5 img{
+    transition: transform 0.3s ease;
+ }
 
+ .link{
+    margin-left: 140px;
+ }
+ .logo1{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .logo2{
+    display: flex;
+    flex-direction: column;
+ }
+ .link1{
+    margin-left: 170px;
+   }
+.logo3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.link2{
+    margin-left: 120px;
+    margin-top: 70px;
+}   
