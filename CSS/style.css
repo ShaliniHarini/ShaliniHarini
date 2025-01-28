@@ -144,12 +144,12 @@
     transition: width 0.5s ease;
   }
   /* Individual skill levels */
-.html { width: 65%; }
-.css { width: 55%; }
+.html { width: 60%; }
+.css { width: 60%; }
 .js { width: 55%; }
-.python { width: 30%; }
-.problem-solving { width: 45%; }
-.mysql { width: 55%; }
+.python { width: 70%; }
+.problem-solving { width: 50%; }
+.mysql { width: 60%; }
 .skill-level::after {
     content: '';
     position: absolute;
@@ -206,14 +206,14 @@
  .container5{
     height: 100vh;
     background-color: #242020;
-    color: #e2b808;
- }
-
+    color: white;
+  }
+  
  .engskill{
     padding-top: 100px;
   }
   .eng{
-    padding-top: 100px;
+    padding-top: 190px;
     font-size: xx-large;
     text-align: center;
   }
@@ -228,7 +228,7 @@
   .star-rating {
     display: flex;
     font-size: 2em;
-    color:white; /* Star color */
+    color:#e2b808; /* Star color */
   }
 
  .link{
@@ -245,22 +245,26 @@
     color: #e5dddd;
   }
   #star1{
-    margin-left: 110px;
+    margin-left: 90px;
   }
   #star2{
-    margin-left: 110px;
+    margin-left: 100px;
   }
   #star3{
-    margin-left: 38pc;
+    margin-left: 690px;
   }
   .abapt{
     display: flex;
     justify-content:space-around;
     text-align: center;
+    text-align: justify;
+    /* gap: 20px;  */
+   
   }
   .social_skill{
-    margin-top: 100px;
+    margin-top: 200px;
     text-align: center;
+    gap: 30px;
   }
   .abl{
     font-size: xx-large;
