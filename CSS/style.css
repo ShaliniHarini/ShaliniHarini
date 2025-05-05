@@ -233,101 +233,31 @@
   color: #FFD700;
 }
 
-/* Additional Enhancements */
-.top img:hover {
-  filter: brightness(0.9);
+
+
+/* english kskill */
+.engskill{
+  padding-top: 100px;
+  background-color: #242020;
+  color:white;
 }
 
+.eng{
+  padding-top: 200px;
+  font-size: xx-large;
+  text-align: center;
+}
+.change{
+  font-size: 23px;
+  text-align: center ;
+}
 
-
-
- /* Learnings */
- .container5{
-    height: 100vh;
-    background-color: #242020;
-    color: white;
-  }
-  
- .engskill{
-    padding-top: 40px;
-  }
-  .eng{
-    padding-top: 190px;
-    font-size: xx-large;
-    text-align: center;
-  }
-  .change{
-    font-size: 23px;
-    text-align: center ;
-  }
-  .fle{
-    display: flex;
-    justify-content: space-evenly;
-  }
-  .star-rating {
-    display: flex;
-    font-size: 2em;
-    color:#e2b808; /* Star color */
-  }
-
- .link{
-    margin-left: 140px;
- }
-   
-
-
-
-
- #lifeskills{
-    padding-top: 15pc;
-    background-color: #242020;
-    color: #e5dddd;
-  }
-  #star1{
-    margin-left: 100px;
-  }
-  #star2{
-    margin-left: 100px;
-  }
-  #star3{
-    margin-left: 100px;
-    padding-left: 9.3em;
-  }
-  .abapt{
-    display: flex;
-    justify-content:space-around;
-    text-align: center;
-    text-align: justify;
-    /* gap: 20px;  */
-   
-  }
-  .social_skill{
-    margin-top: 200px;
-    text-align: center;
-    gap: 30px;
-  }
-  .abl{
-    font-size: xx-large;
-  }
-  .smsa{
-    font-size: xx-large;
-  }
-  .ss{
-    font-size: xx-large;
-  }
-  .star-rating1{
-    display: flex;
-    font-size: 4em;
-    color: gold; /* Star color */
-  }
-  .star-rating2{
-    display: flex;
-    font-size: 4em;
-    color: gold; /* Star color */
-  }
-  .star-rating3{
-    display: flex;
-    font-size: 4em;
-    color: gold; /* Star color */
-
-  }
+.fle{
+  display: flex;
+  justify-content: space-evenly;
+}
+.star-rating {
+  display: flex;
+  font-size: 2em;
+  color: gold; /* Star color */
+}
